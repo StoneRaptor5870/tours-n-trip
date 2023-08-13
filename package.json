@@ -20,6 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "@vercel/node": "^2.15.9",
     "axios": "^1.4.0",
     "bcryptjs": "^2.4.3",
     "compression": "^1.7.4",
@@ -67,6 +68,6 @@
     "url": "^0.11.1"
   },
   "engines": {
-    "node": "^18"
+    "node": "^16"
   }
 }
