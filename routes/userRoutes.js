@@ -18,7 +18,7 @@ router.patch(
   '/updateMe',
   userController.uploadUserPhoto,
   userController.resizeUserPhoto,
-  userController.updateMe
+  userController.updateMe,
 );
 router.patch('/deactivateMyAccount', userController.deactivateMyAccount);
 
