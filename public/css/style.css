@@ -1327,3 +1327,24 @@ body {
   -webkit-transform: translateY(-2px);
   transform: translateY(-2px);
 }
+
+@media (max-width: 1024px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1.5fr);
+    grid-gap: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .card-container {
+    grid-template-columns: 1fr;
+    grid-gap: 4rem;
+  }
+}
