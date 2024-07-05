@@ -1559,3 +1559,46 @@ body {
     margin-top: 1rem;
   }
 }
+
+@media only screen and (max-width: 50em) {
+  .user-view {
+    flex-direction: column;
+  }
+
+  .user-view__menu {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 0;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .user-view__content {
+    padding: 3rem 0;
+  }
+
+  .side-nav li {
+    margin: 0;
+    border: none;
+  }
+
+  .side-nav--active,
+  .side-nav li:hover {
+    border: none;
+  }
+
+  .side-nav a {
+    padding: 0.5rem;
+    justify-content: center;
+  }
+
+  .side-nav svg {
+    margin-right: 0;
+  }
+
+  .admin-nav__heading {
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+}
