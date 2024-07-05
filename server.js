@@ -10,8 +10,6 @@ process.on('uncaughtException', (err) => {
 
 dotenv.config({ path: './config.env' });
 
-// start server
-
 const DB = process.env.DATABASE.replace(
   '<PASSWORD>',
   process.env.DATABASE_PASSWORD,
